@@ -1,15 +1,23 @@
 body {
     font-family: Arial;
     margin: 20px;
+    background-color: #f4f4f4;
 }
 
 h1 {
     color: darkblue;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width:768px){
     body {
-        font-size: 14px;
+        font-size:14px;
     }
 }
